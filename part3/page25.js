@@ -19,8 +19,8 @@ const stock={
     lastprice:200,
     currentprice:250,
     growth:()=>
-        thiscurrentprice-lastprice,
+        this.currentprice-this.lastprice,
     growthpercent:()=>
-        (growth()/this.lastprice)*100
+        (this.growth()/this.lastprice)*100
 } 
 console.log(stock.growthpercent)
