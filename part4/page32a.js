@@ -64,6 +64,10 @@ function withdraw(id, amount){
   });
 }
 
+function showTransactions(id){
+const customer = customers.find(customer=>customer.id===id)
+console.table(customer.transactions)
+}
 
 
 deposit(1, 1500);

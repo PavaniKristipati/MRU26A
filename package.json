@@ -1,6 +1,6 @@
 {
   "name": "mru26",
-  "type":"module",
+  "type": "module",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,9 @@
     "url": "https://github.com/PavaniKristipati/mru26a/issues"
   },
   "homepage": "https://github.com/PavaniKristipati/mru26a#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1"
+  }
 }
