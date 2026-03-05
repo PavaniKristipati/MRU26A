@@ -1,0 +1,34 @@
+// export function add(a,b){
+//     return a+b
+// }
+// export function subtract(a,b){
+//     return a-b
+// }
+
+// function add(a,b){
+//     return a+b
+// }
+// function subtract(a,b){
+//     return a-b
+// }
+// export {add,subtract}
+
+
+// export default function add(a,b){
+//     return a+b
+// }
+
+
+// function add(a,b){
+//     return a+b
+// }
+// export default add
+
+
+
+  export default function add(a,b){
+    return a+b
+}
+ export function subtract(a,b){
+    return a-b
+}

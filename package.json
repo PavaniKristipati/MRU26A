@@ -1,0 +1,21 @@
+{
+  "name": "mru26",
+  "type":"module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavaniKristipati/mru26a.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavaniKristipati/mru26a/issues"
+  },
+  "homepage": "https://github.com/PavaniKristipati/mru26a#readme",
+  "description": ""
+}
