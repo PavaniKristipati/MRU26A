@@ -65,24 +65,9 @@ function withdraw(id, amount){
 }
 
 
-// function showtransactions(id){
-//     customers =customers.map((customer)=>{
-//         if(customer.id === id){
-//             return {
-//             transactions: [
-//           ...customer.transactions,
-//           {
-//             amount:amount
-//           }
-          
-//         }
-//     }
-    
-//     })
-// }
+
 deposit(1, 1500);
 checkBalance(1)
 deposit(1, 1000);
 checkBalance(1)
 withdraw(1,500);
-// showtransactions(2)s
