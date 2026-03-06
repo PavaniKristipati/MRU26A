@@ -14,7 +14,7 @@ function f2(){
     return new Promise((resolve,reject)=> {
     setTimeout(()=>{
     console.log("Hello World")
-    // resolve()
+    // resolve("Everthing is soo good")
     reject("Something went wrong")
 },3000);
 });
@@ -26,6 +26,8 @@ function f3(){
     try{
     f1()
 await f2()
+// const result=await f2()
+// console.log(result)
     f3()
     }
     catch(err){

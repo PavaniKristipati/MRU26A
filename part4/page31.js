@@ -34,7 +34,7 @@ function makePayment(){
     return new Promise((resolve,reject) =>{
         setTimeout(()=>{
             resolve("Payment is success")
-            reject("Payment failed")
+            // reject("Payment failed")
         },5000)
     })
 }
